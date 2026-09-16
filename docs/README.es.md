@@ -8,7 +8,14 @@ Organizador de fotos sin conexión para **Android 11 o posterior**, creado por *
 
 ## Descargar e instalar
 
-**[Descargar SwipePhoto 0.4.0 APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** · [Página de la versión](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0)
+Elige una ubicación de descarga:
+
+| Ubicación | Descarga |
+| --- | --- |
+| **China continental · Lanzou Cloud** | **[Descargar APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · Código de acceso: **`8hhes`** |
+| **Internacional · GitHub** | **[Descargar APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+
+Lanzou Cloud abre una página para compartir; introduce el código **`8hhes`** y pulsa el botón de descarga para obtener el APK. GitHub descarga el APK directamente. [Detalles de la versión](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0).
 
 1. Abre el enlace en tu teléfono Android y descarga `SwipePhoto-0.4.0.apk` (unos 3,4 MB).
 2. Abre el APK desde las descargas del navegador o el gestor de archivos. Si Android lo pide, permite que ese navegador o gestor instale aplicaciones de esta fuente.

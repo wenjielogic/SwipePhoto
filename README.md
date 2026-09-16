@@ -8,7 +8,14 @@ An offline photo organizer for **Android 11 or later**, created by **卢文杰**
 
 ## Download and install
 
-**[Download SwipePhoto 0.4.0 APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** · [Release page](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0)
+Choose a download location:
+
+| Location | Download |
+| --- | --- |
+| **Mainland China · Lanzou Cloud** | **[Download APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · Access code: **`8hhes`** |
+| **International · GitHub** | **[Download APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+
+Lanzou Cloud opens a sharing page; enter access code **`8hhes`**, then use its download button to obtain the APK. GitHub links directly to the APK. [Release details](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0).
 
 1. Open the download link on your Android phone and save `SwipePhoto-0.4.0.apk` (about 3.4 MB).
 2. Open the APK in your browser's downloads or file manager. If Android asks, allow that browser or file manager to install apps from this source.

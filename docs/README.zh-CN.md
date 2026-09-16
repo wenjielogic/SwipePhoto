@@ -8,7 +8,14 @@
 
 ## 下载与安装
 
-**[下载 SwipePhoto 0.4.0 APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** · [版本发布页](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0)
+选择适合自己的下载入口：
+
+| 下载线路 | 下载入口 |
+| --- | --- |
+| **国内下载 · 蓝奏云** | **[下载 APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · 提取码：**`8hhes`** |
+| **国际下载 · GitHub** | **[下载 APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+
+蓝奏云打开分享页后，输入提取码 **`8hhes`**，再点击下载按钮；GitHub 直接下载 APK。[查看版本说明](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0)。
 
 1. 在安卓手机打开上面的链接，下载 `SwipePhoto-0.4.0.apk`，大小约 3.4 MB。
 2. 在浏览器下载列表或文件管理器中打开 APK。如果系统询问，允许当前浏览器或文件管理器安装此来源的应用。

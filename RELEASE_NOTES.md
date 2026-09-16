@@ -2,9 +2,18 @@
 
 ## English
 
+Choose a download location:
+
+| Location | Download |
+| --- | --- |
+| **Mainland China · Lanzou Cloud** | **[Download APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · Access code: **`8hhes`** |
+| **International · GitHub** | **[Download APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+
+Lanzou Cloud opens a sharing page; enter access code **`8hhes`**, then use its download button to obtain the APK. GitHub links directly to the APK. [Release details](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0).
+
 Free offline photo organizer for Android 11+. Creator: **卢文杰**.
 
-**Install `SwipePhoto-0.4.0.apk` from the Assets below.** Upgrade directly over the previous official version; do not uninstall it first. This is a test release.
+**Install `SwipePhoto-0.4.0.apk` using either download location above, or the Assets below.** Upgrade directly over the previous official version; do not uninstall it first. This is a test release.
 
 - Swipe left to mark for deletion, right to keep, up to favorite, down to make private after authentication and confirmation.
 - Simplified Chinese, English and Spanish: Settings → Language. First launch: 设置 → 语言 → English.
@@ -17,9 +26,18 @@ Before uninstalling, verify and save all private photos under Settings → Unins
 
 ## 简体中文
 
+选择适合自己的下载入口：
+
+| 下载线路 | 下载入口 |
+| --- | --- |
+| **国内下载 · 蓝奏云** | **[下载 APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · 提取码：**`8hhes`** |
+| **国际下载 · GitHub** | **[下载 APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+
+蓝奏云打开分享页后，输入提取码 **`8hhes`**，再点击下载按钮；GitHub 直接下载 APK。[查看版本说明](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0)。
+
 Android 11 及以上的免费离线照片整理工具。创作者：**卢文杰**。
 
-**请下载下方 Assets 中的 `SwipePhoto-0.4.0.apk`。** 旧版官方应用请直接覆盖安装，不要先卸载。本版为测试版。
+**请通过上方任一下载入口，或下方 Assets 下载 `SwipePhoto-0.4.0.apk`。** 旧版官方应用请直接覆盖安装，不要先卸载。本版为测试版。
 
 - 左滑待删除、右滑保留、上滑收藏、下滑验证并确认后转为私密。
 - 设置 → 语言，支持简体中文、English、Español。
@@ -32,9 +50,18 @@ Android 11 及以上的免费离线照片整理工具。创作者：**卢文杰*
 
 ## Español
 
+Elige una ubicación de descarga:
+
+| Ubicación | Descarga |
+| --- | --- |
+| **China continental · Lanzou Cloud** | **[Descargar APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · Código de acceso: **`8hhes`** |
+| **Internacional · GitHub** | **[Descargar APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+
+Lanzou Cloud abre una página para compartir; introduce el código **`8hhes`** y pulsa el botón de descarga para obtener el APK. GitHub descarga el APK directamente. [Detalles de la versión](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0).
+
 Organizador de fotos gratuito y sin conexión para Android 11 o posterior. Creador: **卢文杰**.
 
-**Descarga `SwipePhoto-0.4.0.apk` en Assets, debajo.** Actualiza encima de la versión oficial anterior; no la desinstales primero. Es una versión de prueba.
+**Descarga `SwipePhoto-0.4.0.apk` mediante cualquiera de los enlaces anteriores o en Assets, debajo.** Actualiza encima de la versión oficial anterior; no la desinstales primero. Es una versión de prueba.
 
 - Izquierda: marcar para eliminar; derecha: conservar; arriba: favoritos; abajo: álbum privado tras verificar la identidad y confirmar.
 - Chino simplificado, inglés y español en Ajustes → Idioma. Primer inicio: 设置 → 语言 → Español.
