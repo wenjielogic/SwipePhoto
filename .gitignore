@@ -1,0 +1,17 @@
+# Distribution repository: application source and development files stay private.
+*.apk
+*.zip
+*.jks
+*.keystore
+*.pem
+*.key
+*.p12
+*.pfx
+local.properties
+keystore.properties
+mapping.txt
+app/
+gradle/
+build/
+scripts/
+.env*
