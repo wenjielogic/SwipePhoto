@@ -11,7 +11,7 @@ SwipePhoto 0.5.0 (version code 6) is a test release for Android 11 or later. Sor
 - [GitHub · APK 0.5.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk)
 - [Lanzou · 1234](https://wwall.lanzn.com/b01gibclpg)
 
-China: Lanzou sharing folder, access code 1234. Upload and checksum verification of version 0.5.0 in this folder are not yet confirmed. Check the filename and SHA-256 before installing; use GitHub when you need the verified release asset.
+China: Lanzou, access code 1234. Select SwipePhoto-0.5.0.apk. You can check its integrity against the official SHA256SUMS.txt.
 
 ## Install or update
 

@@ -8,7 +8,7 @@ Persistent private queue; explicit batch encryption and verified recovery files;
 
 [GitHub APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk) · [Lanzou 1234](https://wwall.lanzn.com/b01gibclpg)
 
-China: Lanzou sharing folder, access code 1234. Upload and checksum verification of version 0.5.0 in this folder are not yet confirmed. Check the filename and SHA-256 before installing; use GitHub when you need the verified release asset.
+China: Lanzou, access code 1234. Select SwipePhoto-0.5.0.apk. You can check its integrity against the official SHA256SUMS.txt.
 
 Open Settings → Uninstall protection and recovery and verify/save all private photos. Keep Download/私密相册 and make an independent copy on another device. Successful .swpv files in this shared folder normally survive uninstalling; internal app data does not. Uninstalling never decrypts or restores photos automatically.
 
@@ -24,7 +24,7 @@ Free for personal, non-commercial use. APK and documentation only; application s
 
 [GitHub APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk) · [Lanzou 1234](https://wwall.lanzn.com/b01gibclpg)
 
-国内：蓝奏云共享文件夹，密码 1234。目前尚未确认 0.5.0 已上传至该文件夹并完成校验；安装前请核对文件名与 SHA-256。需要已验证的本版安装包时，请使用 GitHub 发布附件。
+国内：蓝奏云，密码 1234，选择 SwipePhoto-0.5.0.apk；可用官方 SHA256SUMS.txt 核对完整性。
 
 进入「设置 → 卸载保护与找回」，校验并保存全部私密照片。保留 Download/私密相册 文件夹，并另存一份到电脑等独立设备。已成功保存的共享 .swpv 文件通常会在卸载后保留，App 内部数据不会。卸载不会自动解密或还原照片。
 
@@ -40,7 +40,7 @@ Cola privada persistente; cifrado por lotes y archivos de recuperación verifica
 
 [GitHub APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk) · [Lanzou 1234](https://wwall.lanzn.com/b01gibclpg)
 
-China: carpeta compartida de Lanzou, código 1234. Aún no se ha confirmado la subida y verificación de la versión 0.5.0 en esa carpeta. Comprueba el nombre y SHA-256 antes de instalar; utiliza el archivo de GitHub para obtener esta versión verificada.
+China: Lanzou, código 1234. Selecciona SwipePhoto-0.5.0.apk. Puedes comprobar su integridad con el archivo oficial SHA256SUMS.txt.
 
 En Ajustes → Protección al desinstalar y recuperación, verifica y guarda todas las fotos privadas. Conserva Download/私密相册 y una copia independiente en otro dispositivo. Los archivos .swpv guardados correctamente en la carpeta compartida normalmente sobreviven a la desinstalación; los datos internos de la app no. Desinstalar nunca restaura ni descifra automáticamente las fotos.
 

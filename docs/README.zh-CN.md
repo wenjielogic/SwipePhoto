@@ -11,7 +11,7 @@
 - [GitHub · APK 0.5.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk)
 - [Lanzou · 1234](https://wwall.lanzn.com/b01gibclpg)
 
-国内：蓝奏云共享文件夹，密码 1234。目前尚未确认 0.5.0 已上传至该文件夹并完成校验；安装前请核对文件名与 SHA-256。需要已验证的本版安装包时，请使用 GitHub 发布附件。
+国内：蓝奏云，密码 1234，选择 SwipePhoto-0.5.0.apk；可用官方 SHA256SUMS.txt 核对完整性。
 
 ## 安装与更新
 
