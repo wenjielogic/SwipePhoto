@@ -1,10 +1,10 @@
 # Free-use license and non-commercial notice
 
-Copyright © 2026 卢文杰. All rights reserved except the permissions below.
+Copyright © 2026 Wenjie Lu / 卢文杰. All rights reserved except the permissions below.
 
 ## English
 
-**Creator: 卢文杰. SwipePhoto is publicly available free of charge.**
+**Creator: Wenjie Lu. SwipePhoto is publicly available free of charge.**
 
 You may download, install and use the official application for personal, non-commercial purposes. You may share the unmodified official APK free of charge if the creator's attribution and all applicable notices remain intact.
 
@@ -28,7 +28,7 @@ This notice covers the creator's original work. Third-party components remain go
 
 ## Español
 
-**Creador: 卢文杰. SwipePhoto se ofrece públicamente de forma gratuita.**
+**Creador: Wenjie Lu. SwipePhoto se ofrece públicamente de forma gratuita.**
 
 Puedes descargar, instalar y usar la aplicación oficial para fines personales y no comerciales. Puedes compartir gratuitamente el APK oficial sin modificar, siempre que se conserven la atribución del creador y todos los avisos aplicables.
 

@@ -1,79 +1,49 @@
-# SwipePhoto 0.4.0
+# SwipePhoto 0.5.0 · Android test release
 
-## English
+## SwipePhoto for Android
 
-Choose a download location:
+SwipePhoto 0.5.0 (version code 6) is a test release for Android 11 or later. Sort photos locally in English, Simplified Chinese or Spanish. No account, advertising or in-app purchases.
 
-| Location | Download |
-| --- | --- |
-| **Mainland China · Lanzou Cloud** | **[Download APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · Access code: **`8hhes`** |
-| **International · GitHub** | **[Download APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+Persistent private queue; explicit batch encryption and verified recovery files; separate confirmation to remove originals; clearer progress and recovery guidance; localized privacy and help links.
 
-Lanzou Cloud opens a sharing page; enter access code **`8hhes`**, then use its download button to obtain the APK. GitHub links directly to the APK. [Release details](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0).
+[GitHub APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk) · [Lanzou 1234](https://wwall.lanzn.com/b01gibclpg)
 
-Free offline photo organizer for Android 11+. Creator: **卢文杰**.
+China: Lanzou sharing folder, access code 1234. Upload and checksum verification of version 0.5.0 in this folder are not yet confirmed. Check the filename and SHA-256 before installing; use GitHub when you need the verified release asset.
 
-**Install `SwipePhoto-0.4.0.apk` using either download location above, or the Assets below.** Upgrade directly over the previous official version; do not uninstall it first. This is a test release.
+Open Settings → Uninstall protection and recovery and verify/save all private photos. Keep Download/私密相册 and make an independent copy on another device. Successful .swpv files in this shared folder normally survive uninstalling; internal app data does not. Uninstalling never decrypts or restores photos automatically.
 
-- Swipe left to mark for deletion, right to keep, up to favorite, down to make private after authentication and confirmation.
-- Simplified Chinese, English and Spanish: Settings → Language. First launch: 设置 → 语言 → English.
-- Undo feedback appears beside All photos and leaves the Undo button clear.
-- Includes author attribution, a free-use notice and checks for ordinary package modifications.
+123456 is a fixed, easy-to-guess recovery-file password, separate from your phone screen lock. It only deters casual viewing. A file manager can see the encrypted files; anyone who obtains them and knows the password can recover their contents. Do not delete the files. Phone loss, factory reset or deletion of the only backup can still cause loss.
 
-**Personal, non-commercial use only. No paid distribution, resale or removal of attribution.** App source code is not included. Read the [English guide](https://github.com/wenjielogic/SwipePhoto/blob/main/README.md) and [license](https://github.com/wenjielogic/SwipePhoto/blob/main/LICENSE.md).
+Free for personal, non-commercial use. APK and documentation only; application source code is not published. Wenjie Lu. [Help and recovery](https://wenjielogic.github.io/SwipePhoto/android/en/support.html)
 
-Before uninstalling, verify and save all private photos under Settings → Uninstall protection and recovery. Saved `.swpv` files in `Download/私密相册` can be recovered after reinstalling with password **123456**; they do not decrypt automatically. This fixed password is easy to guess.
+## 轻扫相册安卓版
 
-## 简体中文
+轻扫相册 0.5.0（版本代码 6）是适用于 Android 11 及以上的测试版。照片在本机整理，支持简体中文、英语、西班牙语；无需账号，无广告和应用内购买。
 
-选择适合自己的下载入口：
+新增退出后保留的待私密队列；主动批量加密并校验恢复文件；独立确认移除公开原件；完善进度与找回说明；加入三语隐私和帮助链接。
 
-| 下载线路 | 下载入口 |
-| --- | --- |
-| **国内下载 · 蓝奏云** | **[下载 APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · 提取码：**`8hhes`** |
-| **国际下载 · GitHub** | **[下载 APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+[GitHub APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk) · [Lanzou 1234](https://wwall.lanzn.com/b01gibclpg)
 
-蓝奏云打开分享页后，输入提取码 **`8hhes`**，再点击下载按钮；GitHub 直接下载 APK。[查看版本说明](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0)。
+国内：蓝奏云共享文件夹，密码 1234。目前尚未确认 0.5.0 已上传至该文件夹并完成校验；安装前请核对文件名与 SHA-256。需要已验证的本版安装包时，请使用 GitHub 发布附件。
 
-Android 11 及以上的免费离线照片整理工具。创作者：**卢文杰**。
+进入「设置 → 卸载保护与找回」，校验并保存全部私密照片。保留 Download/私密相册 文件夹，并另存一份到电脑等独立设备。已成功保存的共享 .swpv 文件通常会在卸载后保留，App 内部数据不会。卸载不会自动解密或还原照片。
 
-**请通过上方任一下载入口，或下方 Assets 下载 `SwipePhoto-0.4.0.apk`。** 旧版官方应用请直接覆盖安装，不要先卸载。本版为测试版。
+123456 是固定且容易猜到的恢复文件密码，与手机锁屏密码不同，只适合防止随手查看。文件管理器仍能看到加密文件；取得文件并知道该密码的人可以恢复内容。请勿删除文件。手机丢失、恢复出厂设置或删掉唯一备份仍会造成丢失。
 
-- 左滑待删除、右滑保留、上滑收藏、下滑验证并确认后转为私密。
-- 设置 → 语言，支持简体中文、English、Español。
-- 撤销提示放在「全部照片」旁，不遮挡按钮。
-- 加入作者署名、免费声明和普通篡改识别检查。
+此工具免费公开，限个人非商业使用。禁止未经授权商用、收费分发、转售及删除署名。只公开 APK 和说明，不公开应用源码。 卢文杰. [帮助与找回](https://wenjielogic.github.io/SwipePhoto/android/zh-Hans/support.html)
 
-**此工具免费公开。禁止商用、收费分发、转售或删除署名。** 不公开应用源码。请阅读[中文说明](https://github.com/wenjielogic/SwipePhoto/blob/main/docs/README.zh-CN.md)及[使用许可](https://github.com/wenjielogic/SwipePhoto/blob/main/LICENSE.md)。
+## SwipePhoto para Android
 
-卸载前进入「设置 → 卸载保护与找回」，校验并保存全部私密照片。成功保存在 `Download/私密相册` 的 `.swpv` 文件可在重装后输入 **123456** 找回，不会自动解密。该固定密码容易猜到。
+SwipePhoto 0.5.0 (código de versión 6) es una versión de prueba para Android 11 o posterior. Organiza fotos en el dispositivo en español, inglés o chino simplificado. Sin cuenta, anuncios ni compras dentro de la app.
 
-## Español
+Cola privada persistente; cifrado por lotes y archivos de recuperación verificados; confirmación independiente para eliminar originales; indicaciones más claras de progreso y recuperación; enlaces de privacidad y ayuda en tres idiomas.
 
-Elige una ubicación de descarga:
+[GitHub APK](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk) · [Lanzou 1234](https://wwall.lanzn.com/b01gibclpg)
 
-| Ubicación | Descarga |
-| --- | --- |
-| **China continental · Lanzou Cloud** | **[Descargar APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · Código de acceso: **`8hhes`** |
-| **Internacional · GitHub** | **[Descargar APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+China: carpeta compartida de Lanzou, código 1234. Aún no se ha confirmado la subida y verificación de la versión 0.5.0 en esa carpeta. Comprueba el nombre y SHA-256 antes de instalar; utiliza el archivo de GitHub para obtener esta versión verificada.
 
-Lanzou Cloud abre una página para compartir; introduce el código **`8hhes`** y pulsa el botón de descarga para obtener el APK. GitHub descarga el APK directamente. [Detalles de la versión](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0).
+En Ajustes → Protección al desinstalar y recuperación, verifica y guarda todas las fotos privadas. Conserva Download/私密相册 y una copia independiente en otro dispositivo. Los archivos .swpv guardados correctamente en la carpeta compartida normalmente sobreviven a la desinstalación; los datos internos de la app no. Desinstalar nunca restaura ni descifra automáticamente las fotos.
 
-Organizador de fotos gratuito y sin conexión para Android 11 o posterior. Creador: **卢文杰**.
+123456 es una contraseña fija y fácil de adivinar para los archivos de recuperación, distinta del bloqueo del teléfono. Solo dificulta la consulta casual. Un gestor de archivos puede ver los archivos cifrados; quien los obtenga y conozca la contraseña puede recuperar su contenido. No los borres. Perder el teléfono, restablecerlo o borrar la única copia puede causar pérdidas.
 
-**Descarga `SwipePhoto-0.4.0.apk` mediante cualquiera de los enlaces anteriores o en Assets, debajo.** Actualiza encima de la versión oficial anterior; no la desinstales primero. Es una versión de prueba.
-
-- Izquierda: marcar para eliminar; derecha: conservar; arriba: favoritos; abajo: álbum privado tras verificar la identidad y confirmar.
-- Chino simplificado, inglés y español en Ajustes → Idioma. Primer inicio: 设置 → 语言 → Español.
-- El aviso de Deshacer aparece junto a Todas las fotos y no tapa el botón.
-- Incluye atribución, aviso de uso gratuito y detección de modificaciones comunes del paquete.
-
-**Solo para uso personal y no comercial. Se prohíben la distribución de pago, la reventa y la eliminación de la atribución.** No se incluye el código fuente de la aplicación. Consulta la [guía en español](https://github.com/wenjielogic/SwipePhoto/blob/main/docs/README.es.md) y la [licencia](https://github.com/wenjielogic/SwipePhoto/blob/main/LICENSE.md).
-
-Antes de desinstalar, verifica y guarda todas las fotos privadas desde Ajustes → Protección al desinstalar y recuperación. Los archivos `.swpv` guardados en `Download/私密相册` pueden recuperarse tras reinstalar con la contraseña **123456**; no se descifran automáticamente. Esta contraseña fija es fácil de adivinar.
-
----
-
-APK SHA-256: `e6567b5d1e41b938226f4a127a125c25c5599cd9eb6eb5a600f6d6b75323e22d`
-
-Tested / 已测试 / Probado: 30 JVM tests; Android 11 and 14 emulators. Physical-phone compatibility still requires testing. / 真机兼容性仍需测试。 / La compatibilidad con teléfonos físicos aún requiere pruebas.
+Gratis para uso personal y no comercial. Se prohíben la venta, la distribución de pago y la eliminación de la atribución sin autorización. Solo se publican el APK y la documentación, no el código fuente de la aplicación. Wenjie Lu. [Ayuda y recuperación](https://wenjielogic.github.io/SwipePhoto/android/es/support.html)

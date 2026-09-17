@@ -1,78 +1,60 @@
-# SwipePhoto · 轻扫相册
+# SwipePhoto for Android · 0.5.0
 
-[English](README.md) · [简体中文](docs/README.zh-CN.md) · [Español](docs/README.es.md)
+[English](https://github.com/wenjielogic/SwipePhoto/blob/main/README.md) · [简体中文](https://github.com/wenjielogic/SwipePhoto/blob/main/docs/README.zh-CN.md) · [Español](https://github.com/wenjielogic/SwipePhoto/blob/main/docs/README.es.md)
 
-An offline photo organizer for **Android 11 or later**, created by **卢文杰**. Review one photo at a time with four swipe directions. The app supports Simplified Chinese, English and Spanish.
+SwipePhoto 0.5.0 (version code 6) is a test release for Android 11 or later. Sort photos locally in English, Simplified Chinese or Spanish. No account, advertising or in-app purchases.
 
-**Free for personal, non-commercial use. No account, ads, in-app purchases or internet permission.** This repository distributes the APK and documentation only. The application source code is not published; this is not an open-source release.
+**Free for personal, non-commercial use. APK and documentation only; application source code is not published.**
 
-## Download and install
+## Download
 
-Choose a download location:
+- [GitHub · APK 0.5.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SwipePhoto-0.5.0.apk)
+- [Lanzou · 1234](https://wwall.lanzn.com/b01gibclpg)
 
-| Location | Download |
-| --- | --- |
-| **Mainland China · Lanzou Cloud** | **[Download APK 0.4.0](https://wwall.lanzoup.com/iZccB48ob87i)** · Access code: **`8hhes`** |
-| **International · GitHub** | **[Download APK 0.4.0](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.4.0/SwipePhoto-0.4.0.apk)** |
+China: Lanzou sharing folder, access code 1234. Upload and checksum verification of version 0.5.0 in this folder are not yet confirmed. Check the filename and SHA-256 before installing; use GitHub when you need the verified release asset.
 
-Lanzou Cloud opens a sharing page; enter access code **`8hhes`**, then use its download button to obtain the APK. GitHub links directly to the APK. [Release details](https://github.com/wenjielogic/SwipePhoto/releases/tag/v0.4.0).
+## Install or update
 
-1. Open the download link on your Android phone and save `SwipePhoto-0.4.0.apk` (about 3.4 MB).
-2. Open the APK in your browser's downloads or file manager. If Android asks, allow that browser or file manager to install apps from this source.
-3. If an older official version is installed, install this update over it. **Do not uninstall the old version first.**
-4. Open SwipePhoto and allow access to your photos. Android 14+ can grant access to selected photos instead of the entire library.
+Download SwipePhoto-0.5.0.apk from the release assets. Open it in your browser downloads or file manager and allow installation from that source if Android asks. Install over the previous official version; do not uninstall it first. GitHub’s Source code archives contain distribution documents, not an installer or the application source.
 
-Download the `.apk` file. GitHub's automatically generated “Source code” archives contain this repository's documentation, not the app's source code or an installer. This is a **test release**, not a Play Store listing. Start with a few non-important test photos.
+## Four directions
 
-## Four swipe directions
+Left: queue for deletion; confirm the batch to send photos to the system trash. Right: keep the original. Up: mark an in-app favorite, without changing the system gallery favorite. Down: add to the persistent private queue. Queuing does not encrypt, hide or delete the original.
 
-| Direction | Result |
-| --- | --- |
-| **Left** | Add to **To delete**. Photos enter the system trash only after you confirm the batch. |
-| **Right** | Keep the original photo unchanged. |
-| **Up** | Add to the app's **Favorites**. This does not change your system gallery's favorite flag. |
-| **Down** | Authenticate, save and verify encrypted copies, then ask you to confirm removal of the public original. |
+## Batch private processing
 
-The four buttons do the same actions. Tap the photo to view it larger; pinch to zoom. Use **Undo** to reverse recent local decisions. The small confirmation beside **All photos** does not cover the Undo button. Already trashed or privately transferred photos have separate recovery/export flows.
+Tap Private in the bottom navigation → Add photos to open the pending private queue, then explicitly choose batch encryption and saving, up to 100 photos. Each successful item gets an encrypted app copy and a verified recovery file in Download/私密相册. Failed or interrupted items must be reviewed; queued items remain after restarting. If authentication expires, unlock and continue.
 
-Use **Find new photos** to add newly available photos. Review progress is saved automatically.
+## Remove public originals separately
 
-## Language
+After encrypted copies and recovery files are verified, separately confirm removal of public originals. Android asks for permanent deletion of the selected public files. Cancelling leaves those originals visible. Cloud copies, trash and duplicates elsewhere require separate checking. This is SwipePhoto’s encrypted album, not Google Photos Locked Folder or an OEM system private album.
 
-Open **Settings → Language** and select **简体中文**, **English** or **Español**. The first launch is in Simplified Chinese: tap **设置 → 语言 → English** to switch. Your choice is kept after restarting. Android's own dialogs may follow your phone's language.
+## Undo and recovery
 
-## Private album and uninstall recovery
+Undo reverses recent local sorting decisions; it does not reverse a completed system deletion. Tap Private in the bottom navigation → Open private album → Unlock private album, then authenticate on the phone to view encrypted photos. Export to gallery writes a verified photo to Pictures/SwipePhoto while keeping the private copy. Settings → Language changes the interface language.
 
-- View private photos in **Settings → Private album**. Authenticate with your phone's screen-lock credential or supported fingerprint. The album locks when you leave the app or after about four minutes.
-- Recoverable encrypted files are saved in **Phone storage → Download → 私密相册**, with the `.swpv` extension. The folder name stays in Chinese in all languages.
-- The encrypted-file password is **`123456`**, fixed in this version. This is separate from your phone's screen-lock credential. It is easy to guess and only deters casual viewing.
-- The public original remains visible until you approve its removal. That removal uses Android's **permanent deletion** confirmation. Cloud copies, trash and copies elsewhere are not automatically removed.
-- To put a private photo back in your gallery, choose **Export to gallery**. The photo appears in `Pictures/SwipePhoto`; the private copy is kept.
+## Before uninstalling
 
-**Before uninstalling, open Settings → Uninstall protection and recovery → Verify and save all private photos. Confirm that nothing remains incomplete.** This is especially important for photos imported using older versions. Keep the app in the foreground during processing.
+Open Settings → Uninstall protection and recovery and verify/save all private photos. Keep Download/私密相册 and make an independent copy on another device. Successful .swpv files in this shared folder normally survive uninstalling; internal app data does not. Uninstalling never decrypts or restores photos automatically.
 
-Successfully saved shared encrypted files normally remain after uninstalling, but **they do not decrypt automatically**. To recover:
+## After reinstalling
 
-1. Reinstall the official APK and open **Settings → Uninstall protection and recovery → Select encrypted files to recover**.
-2. Select `.swpv` files in `Download/私密相册`. Long-press for multiple selection, or use the file picker's Select all command.
-3. Enter **`123456`** and authenticate on your phone.
-4. View the recovered photos in **Private album**, or export them to your gallery.
+In Settings → Uninstall protection and recovery, select the .swpv files through the system file picker, enter 123456 and authenticate on the phone. Then view them in the private album or export to the gallery. Missing, incomplete or damaged recovery files cannot be assumed recoverable.
 
-Uninstalling removes internal app data and any internal private copies that were not successfully saved to the shared folder. Deleting the shared files, losing the phone or resetting it can still cause loss. Copy the encrypted folder to another device as a backup. Your normal gallery does not display the encrypted photos; a file manager can still see the encrypted files.
+## Password limitation
 
-## Free-use and non-commercial notice
+123456 is a fixed, easy-to-guess recovery-file password, separate from your phone screen lock. It only deters casual viewing. A file manager can see the encrypted files; anyone who obtains them and knows the password can recover their contents. Do not delete the files. Phone loss, factory reset or deletion of the only backup can still cause loss.
 
-**Creator: 卢文杰. This tool is publicly available free of charge. Commercial use, paid distribution, resale, monetization and removal or replacement of the creator's attribution are prohibited without the creator's prior written permission.**
+## Report a problem
 
-You may download, install and share the unmodified official APK free of charge for personal, non-commercial use, keeping the attribution and notices. See the three-language [license and notice](LICENSE.md). Third-party components retain their own license terms.
+Email ljj781325@gmail.com or open a GitHub issue. Include app version, phone model, Android version, steps and actual result. Do not send private photos, .swpv files, passwords, signing keys or unredacted logs. Start testing with a few disposable photos.
 
-## Authenticity and testing
+## Links
 
-- Version: **0.4.0**, package: `dev.local.swipephoto`, minimum: Android 11.
-- APK SHA-256: `e6567b5d1e41b938226f4a127a125c25c5599cd9eb6eb5a600f6d6b75323e22d`.
-- Signing-certificate SHA-256: `818b0c29f9fa5338f8e6228d5491a6ef8802c0602aa94cfa35836d3b4afdf560`.
-- Keeps the previous official test certificate for in-place upgrades. The distributed build has debugging disabled and code obfuscation enabled.
-- Includes creator markers and signature/attribution checks. These help detect ordinary modifications but cannot guarantee that determined attackers will never remove checks or repackage the app.
-- Passed 30 JVM tests, plus language, undo and private-photo upgrade checks on Android 11/14 emulators. Tests also detected re-signed and watermark-modified APK copies. These results do not guarantee compatibility with every phone or replace your own backup.
+- [Help and recovery](https://wenjielogic.github.io/SwipePhoto/android/en/support.html)
+- [Privacy policy](https://wenjielogic.github.io/SwipePhoto/android/en/privacy.html)
+- [SHA-256](https://github.com/wenjielogic/SwipePhoto/releases/download/v0.5.0/SHA256SUMS.txt)
+- [Release history](https://github.com/wenjielogic/SwipePhoto/releases)
+- [iPhone / iOS information](https://wenjielogic.github.io/SwipePhoto/ios/en/index.html)
 
-You can report a reproducible problem in [Issues](https://github.com/wenjielogic/SwipePhoto/issues). Include your Android version, phone model and steps; do not upload private photos, encrypted albums or passwords.
+© 2026 Wenjie Lu. Android APK: `dev.local.swipephoto`, version `0.5.0`, version code `6`.
